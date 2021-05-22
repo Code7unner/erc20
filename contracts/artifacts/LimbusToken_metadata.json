@@ -275,18 +275,19 @@
 			]
 		},
 		"contracts/ERC20.sol": {
-			"keccak256": "0x4203ef48646d4e230b6310db6f5fa2305b3bda0be3206804c152c161197ed33c",
+			"keccak256": "0x4a963b0b78cf4ddf91aa7946bc3a536cbb387888689dbb772580c56dc9718822",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9aed3f15025c16b3895ac7e3d47824999d6effb75586d277b61c4f8a844420e7",
-				"dweb:/ipfs/QmeCBfnZYwKEFJHwUjPDHuRckt5AbWdsTCGbLC39vSNeGF"
+				"bzz-raw://2a830185c9c83b47d069fb1c8bdd5672598e816d0d8ae649fd0fb446f606e38f",
+				"dweb:/ipfs/QmQXMQM3fE56P2GG2bmxPHjvcj3wzmCmfHVpET6bQq98CE"
 			]
 		},
 		"contracts/LimbusToken.sol": {
-			"keccak256": "0xf45c8da3eb51b42040596c1ed66d34c67936d2c8c87db568f901cbdb4ff039f4",
+			"keccak256": "0xcadecc536e8d88660ad618e3f01464b5fd1ed5ed6425c7350f31563882014e17",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://1044ccfbd8b28d079368ad209b5b194e497c56b10318cfc35361de45f6926cdb",
-				"dweb:/ipfs/QmTXveRVeWBnatVc9AEebXRqHHig78VgAgQqEDmYoAsJtm"
+				"bzz-raw://7d8a422534582839d008f8d7e63a17bdbe5e78ed02adc0f8180caaa3445121b4",
+				"dweb:/ipfs/QmVtZUCNX68BTn8nHnJ1jqmgvTwKSBPUgFzapp9pf3GraY"
 			]
 		}
 	},
