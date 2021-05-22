@@ -8,14 +8,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "name_",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "symbol_",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "initialBalance",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -305,7 +300,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ERC20.sol": "ERC20"
+			"contracts/LimbusToken.sol": "LimbusToken"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -349,6 +344,13 @@
 			"urls": [
 				"bzz-raw://eed6ccb1ac0976e67b25120392de4a718975c8b8fc9c24444aeacf6c58c01522",
 				"dweb:/ipfs/QmS4tUG6erBzxbm6abb8qaY5kcdiMpkUikr7xpR3BD2JdX"
+			]
+		},
+		"contracts/LimbusToken.sol": {
+			"keccak256": "0xb854fe8fafd94d227895f20fe508b7fd3824c77c31dac7e6630a2688d9745894",
+			"urls": [
+				"bzz-raw://74e429ffcc17070c3ab656efe035e367496f33f90b1bf25de42e3953a2de70f2",
+				"dweb:/ipfs/QmU5HgX2GRD2pWSMqFZWmxyMzbhv2fC6THdmLEaQAYs3L6"
 			]
 		}
 	},
