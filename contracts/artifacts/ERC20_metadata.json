@@ -9,12 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "name_",
+						"name": "_name",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "symbol_",
+						"name": "_symbol",
 						"type": "string"
 					}
 				],
@@ -27,19 +27,19 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "owner",
+						"name": "_owner",
 						"type": "address"
 					},
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "spender",
+						"name": "_spender",
 						"type": "address"
 					},
 					{
 						"indexed": false,
 						"internalType": "uint256",
-						"name": "value",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
@@ -52,19 +52,19 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "from",
+						"name": "_from",
 						"type": "address"
 					},
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "to",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"indexed": false,
 						"internalType": "uint256",
-						"name": "value",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
@@ -75,12 +75,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "owner",
+						"name": "_owner",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "_spender",
 						"type": "address"
 					}
 				],
@@ -99,12 +99,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "_spender",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
@@ -112,7 +112,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "",
+						"name": "success",
 						"type": "bool"
 					}
 				],
@@ -123,7 +123,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
+						"name": "_owner",
 						"type": "address"
 					}
 				],
@@ -131,7 +131,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "balance",
 						"type": "uint256"
 					}
 				],
@@ -148,55 +148,7 @@
 						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "subtractedValue",
-						"type": "uint256"
-					}
-				],
-				"name": "decreaseAllowance",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "addedValue",
-						"type": "uint256"
-					}
-				],
-				"name": "increaseAllowance",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -242,12 +194,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "recipient",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
@@ -255,7 +207,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "",
+						"name": "success",
 						"type": "bool"
 					}
 				],
@@ -266,17 +218,17 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "sender",
+						"name": "_from",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "recipient",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
@@ -284,7 +236,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "",
+						"name": "success",
 						"type": "bool"
 					}
 				],
@@ -328,27 +280,11 @@
 			]
 		},
 		"contracts/ERC20.sol": {
-			"keccak256": "0x3790c9666534f067dc3335600f15f1144c88601cd98343b6a75695dc4c64cdb6",
+			"keccak256": "0x4a963b0b78cf4ddf91aa7946bc3a536cbb387888689dbb772580c56dc9718822",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8bea4b67400b2889bfdec014b650f1cffe65f6129d6f164a3c4f6acfccde988a",
-				"dweb:/ipfs/QmT7Doyo3goatjakP2WQWeMbA1kGZ8isN8rjBf7fdjuALq"
-			]
-		},
-		"contracts/IERC20.sol": {
-			"keccak256": "0x592218c4b094aa1e68f05ff53f2fb5890af56a5c11a050a3b3ff19545ff2d3f7",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://cbf1e987229758937021341a439ee2f19e6dd563ee4e2aee51925b3325a37edb",
-				"dweb:/ipfs/QmaB6bwANgbaMxWPf24hibXowCyZxunScqo277fZ1V8RyJ"
-			]
-		},
-		"contracts/IERC20Metadata.sol": {
-			"keccak256": "0x966b5e2ac03461c7f63adea2311c5259e8dc0c70a30fcadfa36ac824fb6deeae",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://eed6ccb1ac0976e67b25120392de4a718975c8b8fc9c24444aeacf6c58c01522",
-				"dweb:/ipfs/QmS4tUG6erBzxbm6abb8qaY5kcdiMpkUikr7xpR3BD2JdX"
+				"bzz-raw://2a830185c9c83b47d069fb1c8bdd5672598e816d0d8ae649fd0fb446f606e38f",
+				"dweb:/ipfs/QmQXMQM3fE56P2GG2bmxPHjvcj3wzmCmfHVpET6bQq98CE"
 			]
 		}
 	},
