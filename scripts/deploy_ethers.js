@@ -3,8 +3,9 @@
     try {
         console.log('Running deployWithEthers script...')
     
-        const contractName = 'LimbusToken' // Change this for other contract
-        const constructorArgs = []    // Put constructor args (if any) here for your contract
+        const contractName = 'LimbusToken' 
+        const contractSymbol = 'LTX'
+        const constructorArgs = [contractName, contractSymbol]    // Put constructor args (if any) here for your contract
 
         // Note that the script needs the ABI which is generated from the compilation artifact.
         // Make sure contract is compiled and artifacts are generated
